@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+section {
+    background-color: white;
+}
+
+.top {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 35px;
+    
+}
+
+footer {
+    height: 200px;
+    background-color: #1c1d25;
+}
+
+.footer-contact {
+    display: flex;
+    padding-left: 20px;
+    color: white;
+}
+
+footer h2 {
+    padding-top: 20px;
+}
+
+.contact-info ul{
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 17px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+
+h1 {
+    font-size: 80px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.name-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.name-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.logo {
+    height: 90px;
+    margin: 10px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    border-bottom: 2px solid black;
+}
+
+.sub-section-projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.sub-section-projects h2 {
+    padding-bottom: 60px;
+}
+
+.pfp {
+    height: 300px;
+}
+
+.pfp-container {
+    display: flex;
+    align-items: center;
+}
+
+.information h2 {
+    padding-bottom: 20px;
+}
+
+.project-card {
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(134, 127, 127);
+}
+
+.project-card-1 {
+    width: 500px;
+    height: 700px;
+    box-shadow: 5px 5px 20px rgb(134, 127, 127);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:1665px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.first-project {
+    height: 550px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.upcoming-project-img {
+    height: 200px;
+    width: 300px;
+}
+
+
+.github {
+    text-decoration: none;
+    color: rgb(235, 157, 105);
+}
+
+.github:hover {
+    color: rgb(95, 182, 121);
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
